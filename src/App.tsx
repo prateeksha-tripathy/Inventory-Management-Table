@@ -1,8 +1,9 @@
 import './App.css'
+import Home from './Home'
 
 function App() {
 return(
-  <h1>Inventory Management Table</h1>
+  <Home />
 )
 }
 
