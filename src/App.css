@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-image: url('assets/invent.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-attachment: fixed; /* Keeps the image fixed during scroll */
+  background-position: center; /* Centers the image */
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Optional: Set your default font */
+}
+/* Background styling */
+.app-background {
+  background-image: url('/background.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh; /* Ensure full height coverage */
+  display: flex; /* Center the content vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassmorphism container styling */
+.glass-container {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-radius: 16px; /* Rounded corners */
+  padding: 20px; /* Space inside the container */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 900px; /* Limit the max width */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: #333; /* Text color */
+  text-align: center; /* Center-align the content */
+  overflow: hidden; /* Hide overflow if needed */
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Default font */
+  color: #fff; /* White text for the app's outer content */
+}

@@ -1,5 +1,5 @@
-/* @tailwind base; */
-/* @tailwind components; */
+/* @tailwind base; 
+@tailwind components; */
 @tailwind utilities;
 
  table {
@@ -20,7 +20,7 @@
   }
 
   .low-stock {
-    background-color: rgba(255, 99, 71, 0.2); 
+    background-color: rgba(236, 43, 40, 0.247); 
     color: red;
     font-weight: bold;
   } 
